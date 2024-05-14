@@ -68,4 +68,35 @@ static int invertirNumero(int num)
 
     return aux;
 };
+//Punto 2
+
+Console.WriteLine("Iniciando punto 2");
+
+char letra;
+Console.WriteLine("ELIJA LA OPERACION A REALIZAR: ");
+Console.WriteLine("a) Sumar");
+Console.WriteLine("b) Restar");
+Console.WriteLine("c) Multiplicar");
+Console.WriteLine("d) Dividir");
+
+
+if (char.TryParse(Console.ReadLine(), out letra))
+{
+    if (letra < 69 && letra > 64 || letra < 101 && letra > 96)
+    {
+        switch (letra)
+        {
+            case :
+
+
+            default:
+        }
+    }
+}
+else
+{
+    Console.WriteLine("No se ingresó una letra");
+}
+
+
 
