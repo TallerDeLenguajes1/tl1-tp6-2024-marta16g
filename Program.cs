@@ -68,3 +68,4 @@ static int invertirNumero(int num)
 
     return aux;
 };
+
